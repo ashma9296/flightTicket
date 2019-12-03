@@ -39,4 +39,9 @@ public class FlightDto {
 		this.airlines = airlines;
 	}
 
+	@Override
+	public String toString() {
+		return "FlightDto [triptype=" + triptype + ", to=" + to + ", from=" + from + ", airlines=" + airlines + "]";
+	}
+
 }

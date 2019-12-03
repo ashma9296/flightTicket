@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<form:form id="loginForm" modelAttribute="flightobject" action="result"
+	<form:form id="loginForm" modelAttribute="flightobject" action="process-flight"
 		method="post">
 
 		<table align="center">
@@ -35,7 +35,7 @@
 
 			<tr>
 				<td></td>
-				<td align="left"><form:button id="process" name="process">Process</form:button>
+				<td align="left"><form:button id="process" name="save">Process</form:button>
 				</td>
 			</tr>
 			<tr></tr>

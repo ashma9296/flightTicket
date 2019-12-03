@@ -20,5 +20,15 @@ public class TicketBookController {
 		return mv;
 
 	}
+	
+	@RequestMapping(value="process-flight", method = RequestMethod.POST)
+	public ModelAndView showpricePage(FlightDto fc) {
+		
+		ModelAndView mvs = new ModelAndView("price-page");
+		mvs.addObject("s", fc);
+		System.out.println(fc.toString());
+		return mvs;
+		 
+	}
 
 }
