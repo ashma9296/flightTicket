@@ -4,7 +4,9 @@
      http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
      
      
-     <bean id ="ticController" class ="flightTicket.controller.TicketBookController"> </bean>
+     <bean id ="ticController" class ="flightTicket.controller.TicketBookController">
+     <property name= "pr" ref ="priceservice"></property> </bean>
+     <bean id= "priceservice" class = "flightTicket.service.Priceservice"> </bean>
 
 
 

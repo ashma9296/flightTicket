@@ -6,6 +6,15 @@ public class FlightDto {
 	private String to;
 	private String from;
 	private String airlines;
+	private double price;
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
 
 	public String getTriptype() {
 		return triptype;

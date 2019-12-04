@@ -7,7 +7,7 @@
 	<br /> To : ${s.to}
 	<br /> From : ${s.from}
 	<br /> Airlines: ${s.airlines}
-	<br />
+	<br /> Price: ${s.price == -1 ? "N/A" : s.price}
 
 	
 </body>

@@ -12,7 +12,7 @@
 			<tr>
 				<td><form:label path="triptype">Trip : </form:label></td>
 				<td><input type="radio" name="triptype" path="triptype"
-					value="oneway" checked> One Way <input type="radio"
+					value="oneway" > One Way <input type="radio"
 					name="triptype" path="triptype" value="roundtrip"> Round
 					Trip</td>
 			</tr>
